@@ -15,8 +15,6 @@
     "pm2-delete": "pm2 delete all",
     "pm2-restart": "pm2 restart all"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "pm2": "^1.0.2",
     "sconsole": "0.0.5"
@@ -26,5 +24,15 @@
     "gulp-brass": "^0.1.5",
     "gulp-brass-npm": "0.0.4",
     "rimraf": "^2.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monai/kaunasjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monai/kaunasjs/issues"
+  },
+  "homepage": "https://github.com/monai/kaunasjs#readme",
+  "author": "monai",
+  "license": "ISC"
 }

@@ -1,0 +1,30 @@
+{
+  "name": "kaunasjs",
+  "version": "1.0.0",
+  "description": "KaunasJS 2016-03-29 Demo",
+  "main": "server.js",
+  "bin": {
+    "kaunasjs": "bin/kaunasjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "gulp",
+    "clean": "gulp clean",
+    "pm2-start": "pm2 start -i 4 server.js",
+    "pm2-delete": "pm2 delete all",
+    "pm2-restart": "pm2 restart all"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^1.0.2",
+    "sconsole": "0.0.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-brass": "^0.1.5",
+    "gulp-brass-npm": "0.0.4",
+    "rimraf": "^2.5.2"
+  }
+}

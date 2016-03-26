@@ -42,7 +42,7 @@ gulp.task('files', [ 'setup', 'source' ], function () {
   .pipe(gulp.dest(path.join(rpm.buildRoot, options.installDir)))
   .pipe(brass.util.stream(function (file, done) {
     if (file.relative == 'bin/kaunasjs') {
-      file.attr = [ '0775', null, null ];
+      file.attr = [ '0775', 'root', 'root' ];
     }
 
     this.push(file);

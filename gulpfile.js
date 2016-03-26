@@ -45,8 +45,7 @@ gulp.task('files', [ 'setup', 'source' ], function () {
       file.attr = [ '0775', 'root', 'root' ];
     }
 
-    this.push(file);
-    done();
+    done(null, file);
   }))
   .pipe(rpm.files());
 });

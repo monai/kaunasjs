@@ -33,9 +33,7 @@ gulp.task('source', [ 'setup' ], npm.sourceTask(pkg, rpm));
 
 gulp.task('files', [ 'setup', 'source' ], function () {
   var globs = [
-    'server.js',
-    'bin/**/*',
-    'node_modules/**/*'
+    '**/*'
   ];
 
   return gulp.src(globs, rpm.globOptions)

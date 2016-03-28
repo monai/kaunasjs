@@ -16,15 +16,13 @@
     "build": "gulp",
     "clean": "gulp clean"
   },
-  "dependencies": {
-    "pm2": "^1.0.2",
-    "sconsole": "0.0.5"
-  },
+  "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-brass": "^0.1.5",
     "gulp-brass-npm": "0.0.4",
-    "rimraf": "^2.5.2"
+    "rimraf": "^2.5.2",
+    "sconsole": "0.0.5"
   },
   "repository": {
     "type": "git",
